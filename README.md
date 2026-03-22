@@ -6,9 +6,7 @@
 
 ## Demo Video
 
-> 📹 **[(https://www.loom.com/share/36aaa072a4974fbba9c601c234e08a60)](#)**
->
-> *(Replace this link with your actual Loom or YouTube recording before submission)*
+> **[https://www.loom.com/share/36aaa072a4974fbba9c601c234e08a60](#)**
 
 ---
 
