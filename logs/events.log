@@ -1,0 +1,385 @@
+2026-03-23 00:26:25 [INFO] main — ============================================================
+2026-03-23 00:26:25 [INFO] main — Intelligent Face Tracker — Starting
+2026-03-23 00:26:25 [INFO] main — Video source : D://record_20250620_190626.mp4
+2026-03-23 00:26:25 [INFO] main — ============================================================
+2026-03-23 00:26:25 [INFO] face_detector — Loading YOLO model: yolov8n-face.pt
+2026-03-23 00:26:25 [INFO] face_detector — YOLO face detector loaded.
+2026-03-23 00:26:25 [INFO] face_recognition_engine — Loading InsightFace model: buffalo_l
+2026-03-23 00:26:28 [INFO] face_recognition_engine — InsightFace loaded successfully.
+2026-03-23 00:26:28 [INFO] database — Database initialized at data/face_tracker.db
+2026-03-23 00:26:28 [INFO] main — Stream opened — 2688x1520 @ 25.0 fps
+2026-03-23 00:29:06 [INFO] database — Registered new face: 36e3cf0f
+2026-03-23 00:29:06.571 | REGISTER | face=36e3cf0f | frame=728
+2026-03-23 00:29:06 [INFO] EventLogger — REGISTER | face=36e3cf0f | frame=728
+2026-03-23 00:29:06.579 | EMBED  | face=36e3cf0f
+2026-03-23 00:29:06 [INFO] EventLogger — EMBED  | face=36e3cf0f
+2026-03-23 00:29:06 [INFO] database — Event logged: entry — 36e3cf0f
+2026-03-23 00:29:06.596 | ENTRY  | face=36e3cf0f | frame=728 | img=logs\entries\2026-03-23\36e3cf0f_002906_583459.jpg
+2026-03-23 00:29:06 [INFO] EventLogger — ENTRY  | face=36e3cf0f | frame=728 | img=logs\entries\2026-03-23\36e3cf0f_002906_583459.jpg
+2026-03-23 00:29:07.500 | TRACK  | face=36e3cf0f | track_id=0 | frame=730
+2026-03-23 00:29:07 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=730
+2026-03-23 00:29:07.992 | TRACK  | face=36e3cf0f | track_id=0 | frame=732
+2026-03-23 00:29:07 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=732
+2026-03-23 00:29:08.476 | TRACK  | face=36e3cf0f | track_id=0 | frame=734
+2026-03-23 00:29:08 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=734
+2026-03-23 00:29:08.915 | TRACK  | face=36e3cf0f | track_id=0 | frame=736
+2026-03-23 00:29:08 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=736
+2026-03-23 00:29:09.365 | TRACK  | face=36e3cf0f | track_id=0 | frame=738
+2026-03-23 00:29:09 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=738
+2026-03-23 00:29:09.815 | TRACK  | face=36e3cf0f | track_id=0 | frame=740
+2026-03-23 00:29:09 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=740
+2026-03-23 00:29:10.232 | TRACK  | face=36e3cf0f | track_id=0 | frame=742
+2026-03-23 00:29:10 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=742
+2026-03-23 00:29:10.665 | TRACK  | face=36e3cf0f | track_id=0 | frame=744
+2026-03-23 00:29:10 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=744
+2026-03-23 00:29:11.122 | TRACK  | face=36e3cf0f | track_id=0 | frame=746
+2026-03-23 00:29:11 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=746
+2026-03-23 00:29:11.548 | TRACK  | face=36e3cf0f | track_id=0 | frame=748
+2026-03-23 00:29:11 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=748
+2026-03-23 00:29:11.991 | TRACK  | face=36e3cf0f | track_id=0 | frame=750
+2026-03-23 00:29:11 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=750
+2026-03-23 00:29:12.408 | TRACK  | face=36e3cf0f | track_id=0 | frame=752
+2026-03-23 00:29:12 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=752
+2026-03-23 00:29:12.868 | TRACK  | face=36e3cf0f | track_id=0 | frame=754
+2026-03-23 00:29:12 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=754
+2026-03-23 00:29:13.302 | TRACK  | face=36e3cf0f | track_id=0 | frame=756
+2026-03-23 00:29:13 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=756
+2026-03-23 00:29:13.725 | TRACK  | face=36e3cf0f | track_id=0 | frame=758
+2026-03-23 00:29:13 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=758
+2026-03-23 00:29:14.143 | TRACK  | face=36e3cf0f | track_id=0 | frame=760
+2026-03-23 00:29:14 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=760
+2026-03-23 00:29:14.579 | TRACK  | face=36e3cf0f | track_id=0 | frame=762
+2026-03-23 00:29:14 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=762
+2026-03-23 00:29:15.012 | TRACK  | face=36e3cf0f | track_id=0 | frame=764
+2026-03-23 00:29:15 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=764
+2026-03-23 00:29:15.440 | TRACK  | face=36e3cf0f | track_id=0 | frame=766
+2026-03-23 00:29:15 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=766
+2026-03-23 00:29:15.880 | TRACK  | face=36e3cf0f | track_id=0 | frame=768
+2026-03-23 00:29:15 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=768
+2026-03-23 00:29:16.304 | TRACK  | face=36e3cf0f | track_id=0 | frame=770
+2026-03-23 00:29:16 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=770
+2026-03-23 00:29:17.271 | TRACK  | face=36e3cf0f | track_id=0 | frame=772
+2026-03-23 00:29:17 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=772
+2026-03-23 00:29:18.248 | TRACK  | face=36e3cf0f | track_id=0 | frame=774
+2026-03-23 00:29:18 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=774
+2026-03-23 00:29:19.229 | TRACK  | face=36e3cf0f | track_id=0 | frame=776
+2026-03-23 00:29:19 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=776
+2026-03-23 00:29:20.237 | TRACK  | face=36e3cf0f | track_id=0 | frame=778
+2026-03-23 00:29:20 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=778
+2026-03-23 00:29:21.313 | TRACK  | face=36e3cf0f | track_id=0 | frame=780
+2026-03-23 00:29:21 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=780
+2026-03-23 00:29:22 [INFO] database — Registered new face: ddfc9b03
+2026-03-23 00:29:22.816 | REGISTER | face=ddfc9b03 | frame=780
+2026-03-23 00:29:22 [INFO] EventLogger — REGISTER | face=ddfc9b03 | frame=780
+2026-03-23 00:29:22.820 | EMBED  | face=ddfc9b03
+2026-03-23 00:29:22 [INFO] EventLogger — EMBED  | face=ddfc9b03
+2026-03-23 00:29:22 [INFO] database — Event logged: entry — ddfc9b03
+2026-03-23 00:29:22.832 | ENTRY  | face=ddfc9b03 | frame=780 | img=logs\entries\2026-03-23\ddfc9b03_002922_824048.jpg
+2026-03-23 00:29:22 [INFO] EventLogger — ENTRY  | face=ddfc9b03 | frame=780 | img=logs\entries\2026-03-23\ddfc9b03_002922_824048.jpg
+2026-03-23 00:29:23.700 | TRACK  | face=36e3cf0f | track_id=0 | frame=782
+2026-03-23 00:29:23 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=782
+2026-03-23 00:29:23.700 | TRACK  | face=ddfc9b03 | track_id=1 | frame=782
+2026-03-23 00:29:23 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=782
+2026-03-23 00:29:24.123 | TRACK  | face=36e3cf0f | track_id=0 | frame=784
+2026-03-23 00:29:24 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=784
+2026-03-23 00:29:24.123 | TRACK  | face=ddfc9b03 | track_id=1 | frame=784
+2026-03-23 00:29:24 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=784
+2026-03-23 00:29:24.569 | TRACK  | face=36e3cf0f | track_id=0 | frame=786
+2026-03-23 00:29:24 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=786
+2026-03-23 00:29:24.571 | TRACK  | face=ddfc9b03 | track_id=1 | frame=786
+2026-03-23 00:29:24 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=786
+2026-03-23 00:29:24.998 | TRACK  | face=36e3cf0f | track_id=0 | frame=788
+2026-03-23 00:29:25 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=788
+2026-03-23 00:29:25.000 | TRACK  | face=ddfc9b03 | track_id=1 | frame=788
+2026-03-23 00:29:25 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=788
+2026-03-23 00:29:25.448 | TRACK  | face=36e3cf0f | track_id=0 | frame=790
+2026-03-23 00:29:25 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=790
+2026-03-23 00:29:25.448 | TRACK  | face=ddfc9b03 | track_id=1 | frame=790
+2026-03-23 00:29:25 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=790
+2026-03-23 00:29:25.892 | TRACK  | face=36e3cf0f | track_id=0 | frame=792
+2026-03-23 00:29:25 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=792
+2026-03-23 00:29:25.892 | TRACK  | face=ddfc9b03 | track_id=1 | frame=792
+2026-03-23 00:29:25 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=792
+2026-03-23 00:29:26.421 | TRACK  | face=36e3cf0f | track_id=0 | frame=794
+2026-03-23 00:29:26 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=794
+2026-03-23 00:29:26.423 | TRACK  | face=ddfc9b03 | track_id=1 | frame=794
+2026-03-23 00:29:26 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=794
+2026-03-23 00:29:26.865 | TRACK  | face=36e3cf0f | track_id=0 | frame=796
+2026-03-23 00:29:26 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=796
+2026-03-23 00:29:26.865 | TRACK  | face=ddfc9b03 | track_id=1 | frame=796
+2026-03-23 00:29:26 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=796
+2026-03-23 00:29:27.329 | TRACK  | face=36e3cf0f | track_id=0 | frame=798
+2026-03-23 00:29:27 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=798
+2026-03-23 00:29:27.329 | TRACK  | face=ddfc9b03 | track_id=1 | frame=798
+2026-03-23 00:29:27 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=798
+2026-03-23 00:29:27.775 | TRACK  | face=36e3cf0f | track_id=0 | frame=800
+2026-03-23 00:29:27 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=800
+2026-03-23 00:29:27.775 | TRACK  | face=ddfc9b03 | track_id=1 | frame=800
+2026-03-23 00:29:27 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=800
+2026-03-23 00:29:28.254 | TRACK  | face=36e3cf0f | track_id=0 | frame=802
+2026-03-23 00:29:28 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=802
+2026-03-23 00:29:28.259 | TRACK  | face=ddfc9b03 | track_id=1 | frame=802
+2026-03-23 00:29:28 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=802
+2026-03-23 00:29:28.724 | TRACK  | face=36e3cf0f | track_id=0 | frame=804
+2026-03-23 00:29:28 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=804
+2026-03-23 00:29:28.724 | TRACK  | face=ddfc9b03 | track_id=1 | frame=804
+2026-03-23 00:29:28 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=804
+2026-03-23 00:29:29.191 | TRACK  | face=36e3cf0f | track_id=0 | frame=806
+2026-03-23 00:29:29 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=806
+2026-03-23 00:29:29.193 | TRACK  | face=ddfc9b03 | track_id=1 | frame=806
+2026-03-23 00:29:29 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=806
+2026-03-23 00:29:29.646 | TRACK  | face=36e3cf0f | track_id=0 | frame=808
+2026-03-23 00:29:29 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=808
+2026-03-23 00:29:29.646 | TRACK  | face=ddfc9b03 | track_id=1 | frame=808
+2026-03-23 00:29:29 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=808
+2026-03-23 00:29:30.095 | TRACK  | face=36e3cf0f | track_id=0 | frame=810
+2026-03-23 00:29:30 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=810
+2026-03-23 00:29:30.095 | TRACK  | face=ddfc9b03 | track_id=1 | frame=810
+2026-03-23 00:29:30 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=810
+2026-03-23 00:29:30.576 | TRACK  | face=36e3cf0f | track_id=0 | frame=812
+2026-03-23 00:29:30 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=812
+2026-03-23 00:29:30.576 | TRACK  | face=ddfc9b03 | track_id=1 | frame=812
+2026-03-23 00:29:30 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=812
+2026-03-23 00:29:31.039 | TRACK  | face=36e3cf0f | track_id=0 | frame=814
+2026-03-23 00:29:31 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=814
+2026-03-23 00:29:31.040 | TRACK  | face=ddfc9b03 | track_id=1 | frame=814
+2026-03-23 00:29:31 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=814
+2026-03-23 00:29:31.507 | TRACK  | face=36e3cf0f | track_id=0 | frame=816
+2026-03-23 00:29:31 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=816
+2026-03-23 00:29:31.507 | TRACK  | face=ddfc9b03 | track_id=1 | frame=816
+2026-03-23 00:29:31 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=816
+2026-03-23 00:29:31.965 | TRACK  | face=36e3cf0f | track_id=0 | frame=818
+2026-03-23 00:29:31 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=818
+2026-03-23 00:29:31.965 | TRACK  | face=ddfc9b03 | track_id=1 | frame=818
+2026-03-23 00:29:31 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=818
+2026-03-23 00:29:32.443 | TRACK  | face=36e3cf0f | track_id=0 | frame=820
+2026-03-23 00:29:32 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=820
+2026-03-23 00:29:32.443 | TRACK  | face=ddfc9b03 | track_id=1 | frame=820
+2026-03-23 00:29:32 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=820
+2026-03-23 00:29:32.910 | TRACK  | face=36e3cf0f | track_id=0 | frame=822
+2026-03-23 00:29:32 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=822
+2026-03-23 00:29:32.912 | TRACK  | face=ddfc9b03 | track_id=1 | frame=822
+2026-03-23 00:29:32 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=822
+2026-03-23 00:29:33.375 | TRACK  | face=36e3cf0f | track_id=0 | frame=824
+2026-03-23 00:29:33 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=824
+2026-03-23 00:29:33.377 | TRACK  | face=ddfc9b03 | track_id=1 | frame=824
+2026-03-23 00:29:33 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=824
+2026-03-23 00:29:33.907 | TRACK  | face=36e3cf0f | track_id=0 | frame=826
+2026-03-23 00:29:33 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=826
+2026-03-23 00:29:33.907 | TRACK  | face=ddfc9b03 | track_id=1 | frame=826
+2026-03-23 00:29:33 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=826
+2026-03-23 00:29:34.398 | TRACK  | face=36e3cf0f | track_id=0 | frame=828
+2026-03-23 00:29:34 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=828
+2026-03-23 00:29:34.398 | TRACK  | face=ddfc9b03 | track_id=1 | frame=828
+2026-03-23 00:29:34 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=828
+2026-03-23 00:29:34.869 | TRACK  | face=36e3cf0f | track_id=0 | frame=830
+2026-03-23 00:29:34 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=830
+2026-03-23 00:29:34.870 | TRACK  | face=ddfc9b03 | track_id=1 | frame=830
+2026-03-23 00:29:34 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=830
+2026-03-23 00:29:35.337 | TRACK  | face=36e3cf0f | track_id=0 | frame=832
+2026-03-23 00:29:35 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=832
+2026-03-23 00:29:35.341 | TRACK  | face=ddfc9b03 | track_id=1 | frame=832
+2026-03-23 00:29:35 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=832
+2026-03-23 00:29:35.791 | TRACK  | face=36e3cf0f | track_id=0 | frame=834
+2026-03-23 00:29:35 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=834
+2026-03-23 00:29:35.796 | TRACK  | face=ddfc9b03 | track_id=1 | frame=834
+2026-03-23 00:29:35 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=834
+2026-03-23 00:29:36.275 | TRACK  | face=36e3cf0f | track_id=0 | frame=836
+2026-03-23 00:29:36 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=836
+2026-03-23 00:29:36.282 | TRACK  | face=ddfc9b03 | track_id=1 | frame=836
+2026-03-23 00:29:36 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=836
+2026-03-23 00:29:36.839 | TRACK  | face=36e3cf0f | track_id=0 | frame=838
+2026-03-23 00:29:36 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=838
+2026-03-23 00:29:36.841 | TRACK  | face=ddfc9b03 | track_id=1 | frame=838
+2026-03-23 00:29:36 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=838
+2026-03-23 00:29:37.319 | TRACK  | face=36e3cf0f | track_id=0 | frame=840
+2026-03-23 00:29:37 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=840
+2026-03-23 00:29:37.322 | TRACK  | face=ddfc9b03 | track_id=1 | frame=840
+2026-03-23 00:29:37 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=840
+2026-03-23 00:29:37.822 | TRACK  | face=36e3cf0f | track_id=0 | frame=842
+2026-03-23 00:29:37 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=842
+2026-03-23 00:29:37.822 | TRACK  | face=ddfc9b03 | track_id=1 | frame=842
+2026-03-23 00:29:37 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=842
+2026-03-23 00:29:38.827 | TRACK  | face=36e3cf0f | track_id=0 | frame=844
+2026-03-23 00:29:38 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=844
+2026-03-23 00:29:38.827 | TRACK  | face=ddfc9b03 | track_id=1 | frame=844
+2026-03-23 00:29:38 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=844
+2026-03-23 00:29:39.880 | TRACK  | face=36e3cf0f | track_id=0 | frame=846
+2026-03-23 00:29:39 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=846
+2026-03-23 00:29:39.880 | TRACK  | face=ddfc9b03 | track_id=1 | frame=846
+2026-03-23 00:29:39 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=846
+2026-03-23 00:29:40.893 | TRACK  | face=36e3cf0f | track_id=0 | frame=848
+2026-03-23 00:29:40 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=848
+2026-03-23 00:29:40.893 | TRACK  | face=ddfc9b03 | track_id=1 | frame=848
+2026-03-23 00:29:40 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=848
+2026-03-23 00:29:41.969 | TRACK  | face=36e3cf0f | track_id=0 | frame=850
+2026-03-23 00:29:41 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=850
+2026-03-23 00:29:41.970 | TRACK  | face=ddfc9b03 | track_id=1 | frame=850
+2026-03-23 00:29:41 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=850
+2026-03-23 00:29:43.007 | TRACK  | face=36e3cf0f | track_id=0 | frame=852
+2026-03-23 00:29:43 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=852
+2026-03-23 00:29:43.007 | TRACK  | face=ddfc9b03 | track_id=1 | frame=852
+2026-03-23 00:29:43 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=852
+2026-03-23 00:29:44.050 | TRACK  | face=36e3cf0f | track_id=0 | frame=854
+2026-03-23 00:29:44 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=854
+2026-03-23 00:29:44.050 | TRACK  | face=ddfc9b03 | track_id=1 | frame=854
+2026-03-23 00:29:44 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=854
+2026-03-23 00:29:45.121 | TRACK  | face=36e3cf0f | track_id=0 | frame=856
+2026-03-23 00:29:45 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=856
+2026-03-23 00:29:45.122 | TRACK  | face=ddfc9b03 | track_id=1 | frame=856
+2026-03-23 00:29:45 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=856
+2026-03-23 00:29:46.203 | TRACK  | face=36e3cf0f | track_id=0 | frame=858
+2026-03-23 00:29:46 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=858
+2026-03-23 00:29:46.203 | TRACK  | face=ddfc9b03 | track_id=1 | frame=858
+2026-03-23 00:29:46 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=858
+2026-03-23 00:29:47.188 | TRACK  | face=36e3cf0f | track_id=0 | frame=860
+2026-03-23 00:29:47 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=860
+2026-03-23 00:29:47.197 | TRACK  | face=ddfc9b03 | track_id=1 | frame=860
+2026-03-23 00:29:47 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=860
+2026-03-23 00:29:48.288 | TRACK  | face=36e3cf0f | track_id=0 | frame=862
+2026-03-23 00:29:48 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=862
+2026-03-23 00:29:48.288 | TRACK  | face=ddfc9b03 | track_id=1 | frame=862
+2026-03-23 00:29:48 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=862
+2026-03-23 00:29:50.216 | TRACK  | face=36e3cf0f | track_id=0 | frame=864
+2026-03-23 00:29:50 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=864
+2026-03-23 00:29:50.217 | TRACK  | face=ddfc9b03 | track_id=1 | frame=864
+2026-03-23 00:29:50 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=864
+2026-03-23 00:29:52.124 | TRACK  | face=36e3cf0f | track_id=0 | frame=866
+2026-03-23 00:29:52 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=866
+2026-03-23 00:29:52.124 | TRACK  | face=ddfc9b03 | track_id=1 | frame=866
+2026-03-23 00:29:52 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=866
+2026-03-23 00:29:53.648 | TRACK  | face=36e3cf0f | track_id=0 | frame=868
+2026-03-23 00:29:53 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=868
+2026-03-23 00:29:53.655 | TRACK  | face=ddfc9b03 | track_id=1 | frame=868
+2026-03-23 00:29:53 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=868
+2026-03-23 00:29:55.649 | TRACK  | face=36e3cf0f | track_id=0 | frame=870
+2026-03-23 00:29:55 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=870
+2026-03-23 00:29:55.651 | TRACK  | face=ddfc9b03 | track_id=1 | frame=870
+2026-03-23 00:29:55 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=870
+2026-03-23 00:29:57.481 | TRACK  | face=36e3cf0f | track_id=0 | frame=872
+2026-03-23 00:29:57 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=872
+2026-03-23 00:29:57.481 | TRACK  | face=ddfc9b03 | track_id=1 | frame=872
+2026-03-23 00:29:57 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=872
+2026-03-23 00:29:59.331 | TRACK  | face=36e3cf0f | track_id=0 | frame=874
+2026-03-23 00:29:59 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=874
+2026-03-23 00:29:59.337 | TRACK  | face=ddfc9b03 | track_id=1 | frame=874
+2026-03-23 00:29:59 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=874
+2026-03-23 00:30:01.619 | TRACK  | face=36e3cf0f | track_id=0 | frame=876
+2026-03-23 00:30:01 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=876
+2026-03-23 00:30:01.619 | TRACK  | face=ddfc9b03 | track_id=1 | frame=876
+2026-03-23 00:30:01 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=876
+2026-03-23 00:30:03.569 | TRACK  | face=36e3cf0f | track_id=0 | frame=878
+2026-03-23 00:30:03 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=878
+2026-03-23 00:30:03.569 | TRACK  | face=ddfc9b03 | track_id=1 | frame=878
+2026-03-23 00:30:03 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=878
+2026-03-23 00:30:05.335 | TRACK  | face=36e3cf0f | track_id=0 | frame=880
+2026-03-23 00:30:05 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=880
+2026-03-23 00:30:05.335 | TRACK  | face=ddfc9b03 | track_id=1 | frame=880
+2026-03-23 00:30:05 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=880
+2026-03-23 00:30:07.165 | TRACK  | face=36e3cf0f | track_id=0 | frame=882
+2026-03-23 00:30:07 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=882
+2026-03-23 00:30:07.169 | TRACK  | face=ddfc9b03 | track_id=1 | frame=882
+2026-03-23 00:30:07 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=882
+2026-03-23 00:30:09.262 | TRACK  | face=36e3cf0f | track_id=0 | frame=884
+2026-03-23 00:30:09 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=884
+2026-03-23 00:30:09.262 | TRACK  | face=ddfc9b03 | track_id=1 | frame=884
+2026-03-23 00:30:09 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=884
+2026-03-23 00:30:11.145 | TRACK  | face=36e3cf0f | track_id=0 | frame=886
+2026-03-23 00:30:11 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=886
+2026-03-23 00:30:11.145 | TRACK  | face=ddfc9b03 | track_id=1 | frame=886
+2026-03-23 00:30:11 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=886
+2026-03-23 00:30:11.870 | TRACK  | face=36e3cf0f | track_id=0 | frame=888
+2026-03-23 00:30:11 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=888
+2026-03-23 00:30:11.870 | TRACK  | face=ddfc9b03 | track_id=1 | frame=888
+2026-03-23 00:30:11 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=888
+2026-03-23 00:30:12.560 | TRACK  | face=36e3cf0f | track_id=0 | frame=890
+2026-03-23 00:30:12 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=890
+2026-03-23 00:30:12.560 | TRACK  | face=ddfc9b03 | track_id=1 | frame=890
+2026-03-23 00:30:12 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=890
+2026-03-23 00:30:13.220 | TRACK  | face=36e3cf0f | track_id=0 | frame=892
+2026-03-23 00:30:13 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=892
+2026-03-23 00:30:13.220 | TRACK  | face=ddfc9b03 | track_id=1 | frame=892
+2026-03-23 00:30:13 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=892
+2026-03-23 00:30:13.866 | TRACK  | face=36e3cf0f | track_id=0 | frame=894
+2026-03-23 00:30:13 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=894
+2026-03-23 00:30:13.868 | TRACK  | face=ddfc9b03 | track_id=1 | frame=894
+2026-03-23 00:30:13 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=894
+2026-03-23 00:30:14 [INFO] database — Event logged: exit — ddfc9b03
+2026-03-23 00:30:14.570 | EXIT   | face=ddfc9b03 | frame=896 | img=logs\exits\2026-03-23\ddfc9b03_003014_561954.jpg
+2026-03-23 00:30:14 [INFO] EventLogger — EXIT   | face=ddfc9b03 | frame=896 | img=logs\exits\2026-03-23\ddfc9b03_003014_561954.jpg
+2026-03-23 00:30:14.570 | TRACK  | face=36e3cf0f | track_id=0 | frame=896
+2026-03-23 00:30:14 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=896
+2026-03-23 00:30:14.570 | TRACK  | face=ddfc9b03 | track_id=1 | frame=896
+2026-03-23 00:30:14 [INFO] EventLogger — TRACK  | face=ddfc9b03 | track_id=1 | frame=896
+2026-03-23 00:30:15.152 | TRACK  | face=36e3cf0f | track_id=0 | frame=898
+2026-03-23 00:30:15 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=898
+2026-03-23 00:30:15.844 | TRACK  | face=36e3cf0f | track_id=0 | frame=900
+2026-03-23 00:30:15 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=900
+2026-03-23 00:30:16.562 | TRACK  | face=36e3cf0f | track_id=0 | frame=902
+2026-03-23 00:30:16 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=902
+2026-03-23 00:30:17.259 | TRACK  | face=36e3cf0f | track_id=0 | frame=904
+2026-03-23 00:30:17 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=904
+2026-03-23 00:30:17.839 | TRACK  | face=36e3cf0f | track_id=0 | frame=906
+2026-03-23 00:30:17 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=906
+2026-03-23 00:30:18.437 | TRACK  | face=36e3cf0f | track_id=0 | frame=908
+2026-03-23 00:30:18 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=908
+2026-03-23 00:30:19.125 | TRACK  | face=36e3cf0f | track_id=0 | frame=910
+2026-03-23 00:30:19 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=910
+2026-03-23 00:30:19.748 | TRACK  | face=36e3cf0f | track_id=0 | frame=912
+2026-03-23 00:30:19 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=912
+2026-03-23 00:30:20.424 | TRACK  | face=36e3cf0f | track_id=0 | frame=914
+2026-03-23 00:30:20 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=914
+2026-03-23 00:30:21.180 | TRACK  | face=36e3cf0f | track_id=0 | frame=916
+2026-03-23 00:30:21 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=916
+2026-03-23 00:30:21.526 | TRACK  | face=36e3cf0f | track_id=0 | frame=918
+2026-03-23 00:30:21 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=918
+2026-03-23 00:30:21.848 | TRACK  | face=36e3cf0f | track_id=0 | frame=920
+2026-03-23 00:30:21 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=920
+2026-03-23 00:30:22.170 | TRACK  | face=36e3cf0f | track_id=0 | frame=922
+2026-03-23 00:30:22 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=922
+2026-03-23 00:30:22.480 | TRACK  | face=36e3cf0f | track_id=0 | frame=924
+2026-03-23 00:30:22 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=924
+2026-03-23 00:30:22.796 | TRACK  | face=36e3cf0f | track_id=0 | frame=926
+2026-03-23 00:30:22 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=926
+2026-03-23 00:30:23.113 | TRACK  | face=36e3cf0f | track_id=0 | frame=928
+2026-03-23 00:30:23 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=928
+2026-03-23 00:30:23.425 | TRACK  | face=36e3cf0f | track_id=0 | frame=930
+2026-03-23 00:30:23 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=930
+2026-03-23 00:30:23.728 | TRACK  | face=36e3cf0f | track_id=0 | frame=932
+2026-03-23 00:30:23 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=932
+2026-03-23 00:30:24.062 | TRACK  | face=36e3cf0f | track_id=0 | frame=934
+2026-03-23 00:30:24 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=934
+2026-03-23 00:30:24.394 | TRACK  | face=36e3cf0f | track_id=0 | frame=936
+2026-03-23 00:30:24 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=936
+2026-03-23 00:30:24.728 | TRACK  | face=36e3cf0f | track_id=0 | frame=938
+2026-03-23 00:30:24 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=938
+2026-03-23 00:30:25.066 | TRACK  | face=36e3cf0f | track_id=0 | frame=940
+2026-03-23 00:30:25 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=940
+2026-03-23 00:30:25.384 | TRACK  | face=36e3cf0f | track_id=0 | frame=942
+2026-03-23 00:30:25 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=942
+2026-03-23 00:30:25.705 | TRACK  | face=36e3cf0f | track_id=0 | frame=944
+2026-03-23 00:30:25 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=944
+2026-03-23 00:30:26.058 | TRACK  | face=36e3cf0f | track_id=0 | frame=946
+2026-03-23 00:30:26 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=946
+2026-03-23 00:30:26.378 | TRACK  | face=36e3cf0f | track_id=0 | frame=948
+2026-03-23 00:30:26 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=948
+2026-03-23 00:30:26.718 | TRACK  | face=36e3cf0f | track_id=0 | frame=950
+2026-03-23 00:30:26 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=950
+2026-03-23 00:30:27.051 | TRACK  | face=36e3cf0f | track_id=0 | frame=952
+2026-03-23 00:30:27 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=952
+2026-03-23 00:30:27.402 | TRACK  | face=36e3cf0f | track_id=0 | frame=954
+2026-03-23 00:30:27 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=954
+2026-03-23 00:30:27 [INFO] database — Event logged: exit — 36e3cf0f
+2026-03-23 00:30:27.731 | EXIT   | face=36e3cf0f | frame=956 | img=logs\exits\2026-03-23\36e3cf0f_003027_720063.jpg
+2026-03-23 00:30:27 [INFO] EventLogger — EXIT   | face=36e3cf0f | frame=956 | img=logs\exits\2026-03-23\36e3cf0f_003027_720063.jpg
+2026-03-23 00:30:27.731 | TRACK  | face=36e3cf0f | track_id=0 | frame=956
+2026-03-23 00:30:27 [INFO] EventLogger — TRACK  | face=36e3cf0f | track_id=0 | frame=956
+2026-03-23 00:33:00 [INFO] main — End of stream reached.
+2026-03-23 00:33:00 [INFO] main — ============================================================
+2026-03-23 00:33:00 [INFO] main — Session complete — 1502 frames in 392.4s (3.8 fps)
+2026-03-23 00:33:00 [INFO] main — Unique visitors  : 2
+2026-03-23 00:33:00 [INFO] main — Total entries    : 2
+2026-03-23 00:33:00 [INFO] main — Total exits      : 2
+2026-03-23 00:33:00 [INFO] main — ============================================================
+2026-03-23 00:33:00 [INFO] database — Database connection closed.
+2026-03-23 00:33:00 [INFO] face_tracker — Pipeline shut down.

@@ -1,0 +1,39 @@
+{
+  "detection": {
+    "model": "yolov8n-face.pt",
+    "confidence_threshold": 0.30,
+    "detection_skip_frames": 1,
+    "iou_threshold": 0.45
+  },
+  "recognition": {
+    "model_name": "buffalo_l",
+    "embedding_similarity_threshold": 0.60,
+    "det_size": [1280, 1280],
+    "ctx_id": 0
+  },
+  "tracking": {
+    "max_disappeared_frames": 60,
+    "max_tracking_distance": 150,
+    "min_face_size": 15
+  },
+  "database": {
+    "path": "data/face_tracker.db"
+  },
+  "logging": {
+    "log_file": "logs/events.log",
+    "image_base_dir": "logs",
+    "log_level": "INFO"
+  },
+  "camera": {
+    "video_source": "D://record_20250620_190626.mp4",
+    "rtsp_url": "rtsp://username:password@ip:port/stream",
+    "use_rtsp": false,
+    "display_width": 1280,
+    "display_height": 720
+  },
+  "output": {
+    "show_display": true,
+    "save_output_video": false,
+    "output_video_path": "output/tracked_output.mp4"
+  }
+}
