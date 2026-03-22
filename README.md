@@ -6,7 +6,7 @@
 
 ## Demo Video
 
-> **[https://www.loom.com/share/36aaa072a4974fbba9c601c234e08a60](#)**
+> **[Demo](https://www.loom.com/share/36aaa072a4974fbba9c601c234e08a60)(#)**
 
 ---
 
